@@ -1,0 +1,45 @@
+.support  {
+    width:89%;
+    margin: 0 auto;
+}
+
+.support h3 {
+    color: #688ea1;
+}
+
+.support-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text p:not(:first-child) {
+    display: none;
+}
+
+.text p {
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap; 
+    width: 269px; 
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: #cccccc;
+    font-weight: bold;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.support-btn {
+    background: #a7cadb;
+    border: 2px solid #638c9f;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+}

@@ -1,0 +1,48 @@
+.financial {
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 89%;
+    margin: 30px auto;
+}
+
+.values {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #618a9d;
+    background: #d3e6f0;
+    border: 1px solid #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.values p {
+    margin:0;
+}
+
+.values--collected {
+    background: #d3f0ea;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.collected {
+    color: #609c92;
+}
+
+.progress-bar {
+    background: #fafafa;
+    border: 1px solid #fff;
+    color: #8f6cb4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.progress {
+    padding: 5px 10px;
+    background: #e6d7f5;
+    border-bottom-left-radius: 10px;
+    
+}
